@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Tugcekaner/Tugcekaner.github.io.git/trendyol/static/css/main.e0099b54.css",
-    "main.js": "/Tugcekaner/Tugcekaner.github.io.git/trendyol/static/js/main.d438cdc2.js",
-    "static/js/787.f3dbcf08.chunk.js": "/Tugcekaner/Tugcekaner.github.io.git/trendyol/static/js/787.f3dbcf08.chunk.js",
-    "index.html": "/Tugcekaner/Tugcekaner.github.io.git/trendyol/index.html",
-    "main.e0099b54.css.map": "/Tugcekaner/Tugcekaner.github.io.git/trendyol/static/css/main.e0099b54.css.map",
-    "main.d438cdc2.js.map": "/Tugcekaner/Tugcekaner.github.io.git/trendyol/static/js/main.d438cdc2.js.map",
-    "787.f3dbcf08.chunk.js.map": "/Tugcekaner/Tugcekaner.github.io.git/trendyol/static/js/787.f3dbcf08.chunk.js.map"
+    "main.css": "/static/css/main.e0099b54.css",
+    "main.js": "/static/js/main.3fa2f622.js",
+    "static/js/787.f3dbcf08.chunk.js": "/static/js/787.f3dbcf08.chunk.js",
+    "index.html": "/index.html",
+    "main.e0099b54.css.map": "/static/css/main.e0099b54.css.map",
+    "main.3fa2f622.js.map": "/static/js/main.3fa2f622.js.map",
+    "787.f3dbcf08.chunk.js.map": "/static/js/787.f3dbcf08.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0099b54.css",
-    "static/js/main.d438cdc2.js"
+    "static/js/main.3fa2f622.js"
   ]
 }
