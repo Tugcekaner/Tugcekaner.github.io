@@ -1,0 +1,315 @@
+ul li {
+  list-style: none;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+hr {
+  margin: 0;
+}
+
+.TopNav ul {
+  display: flex;
+  float: right;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.TopNav ul li {
+  margin-left: 1.5rem;
+}
+.TopNav ul li a {
+  color: #727070;
+  text-decoration: none;
+  font-size: 12px;
+}
+.TopNav ul li a:hover {
+  color: #433f3f;
+}
+
+.MidNav input {
+  width: 600px;
+  background-color: #f0ebeb;
+  border: none;
+  border-radius: 0.3rem;
+}
+.MidNav .navLink {
+  color: black;
+}
+.MidNav .navLink:hover {
+  color: #ff7f00;
+}
+.MidNav img, .MidNav svg {
+  vertical-align: baseline;
+}
+
+.dropdown {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.dropdown ul {
+  display: flex;
+  justify-content: space-between;
+}
+.dropdown ul li:hover a {
+  color: #ff7f00 !important;
+  text-decoration: underline;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.dropdown a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  z-index: 15;
+}
+.dropdown img {
+  max-width: 100%;
+  margin-top: 1rem;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 40px;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content img {
+  max-width: 150px;
+}
+.dropdown-content:hover {
+  background-color: white;
+}
+.dropdown-content .col-md-2 {
+  float: left;
+}
+.dropdown-content ul {
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.Help img {
+  max-width: 100%;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.OwlTop {
+  margin-top: 3rem;
+  text-align: center;
+}
+.OwlTop img {
+  width: 80px;
+  border: 1px solid #727070;
+  border-radius: 100%;
+  margin: auto;
+}
+.OwlTop a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+}
+.OwlTop a:hover {
+  color: #ff7f00;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.OwlTop a:hover img {
+  border: 2px solid #ff7f00;
+  cursor: pointer;
+}
+.OwlTop .owl-dots {
+  display: none;
+}
+
+.Help2 img {
+  max-width: 100%;
+  margin-top: 0.5rem;
+}
+
+.UrunCard {
+  margin-top: 1rem;
+  border: none;
+}
+.UrunCard .card {
+  border-radius: 0.5rem;
+}
+.UrunCard img {
+  max-width: 100%;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.UrunCard .cardTitle {
+  background-color: black;
+  padding: 0.5rem 1rem;
+}
+.UrunCard .cardTitle a {
+  color: white;
+  text-decoration: none;
+}
+.UrunCard:hover .cardTitle {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  background-color: #ff7f00;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.UrunCard:hover img {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.UrunCardRow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.CardUrun {
+  margin-top: 1rem;
+  border: 1.5px solid #bebaba;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+.CardUrun:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.CardUrun .urunFoto {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 0.5rem;
+}
+.CardUrun .cokSatan {
+  max-width: 50px;
+  position: relative;
+  top: -220px;
+  left: 10px;
+}
+.CardUrun .fiyat {
+  color: #ff7f00;
+  font-weight: bold;
+}
+.CardUrun .fav {
+  border: 1px solid #bebaba;
+  background-color: white;
+  border-radius: 100%;
+  padding: 0.2rem 0.4rem;
+  position: relative;
+  top: -270px;
+  left: 70px;
+}
+.CardUrun .fav:hover {
+  color: #ff7f00;
+  cursor: pointer;
+}
+
+.OwlUrunler .urunlerOwl {
+  background-color: #f1e7d2;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.AllBlogs ul li {
+  display: inline-block;
+}
+.AllBlogs .blogLink {
+  border-right: 1px solid black;
+  margin-right: 0.5rem;
+  padding-right: 0.5rem;
+}
+.AllBlogs .blogLink a {
+  text-decoration: none;
+  color: black;
+  font-weight: 100;
+}
+.AllBlogs .blogLink a:hover {
+  cursor: pointer;
+}
+
+.Populer ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+.Populer ul li a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.FooterUl {
+  width: 100%;
+}
+.FooterUl li {
+  width: 100%;
+}
+.FooterUl a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+.FooterUl a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.Footer {
+  background-color: black;
+  color: white;
+}
+.Footer .FooterImage1 img {
+  max-width: 45px;
+  margin-left: 0.2rem;
+}
+.Footer .FooterImage2 img {
+  max-width: 60%;
+  margin-top: 0.5rem;
+}
+.Footer .FooterImage3 {
+  color: black;
+}
+.Footer .FooterImage3 li {
+  background-color: white;
+  padding: 0.3rem 0.5rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+.Footer .FooterImage4 {
+  max-width: 40%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1200px) {
+  .TopNav {
+    display: none;
+  }
+  .MidNav {
+    font-size: 10px;
+  }
+  .NavCatAll {
+    display: none;
+  }
+  .Footer img {
+    display: none;
+  }
+  .Footer .FooterImage3 li {
+    padding: 0.1rem;
+  }
+}/*# sourceMappingURL=style.css.map */

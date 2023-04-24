@@ -1,0 +1,250 @@
+
+ul li
+    list-style: none
+.container
+    width: 85%
+    margin: auto
+hr
+    margin: 0
+
+.TopNav
+    ul
+        display: flex
+        float: right
+        margin-top: 0
+        margin-bottom: 0
+    ul li
+        margin-left: 1.5rem
+    ul li a
+        color: #727070
+        text-decoration: none
+        font-size: 12px
+        &:hover
+            color: #433f3f
+.MidNav
+    input
+        width: 600px
+        background-color: #f0ebeb
+        border: none
+        border-radius: .3rem
+    .navLink
+        color: black
+        &:hover
+            color: #ff7f00
+    img, svg
+        vertical-align: baseline
+
+.dropdown
+    position: relative
+    display: flex
+    justify-content: space-between
+    ul
+        display: flex
+        justify-content: space-between
+        li
+            &:hover a
+                color: #ff7f00 !important
+                text-decoration: underline
+                transition: .3s
+                cursor: pointer
+    a
+        text-decoration: none
+        color: black
+        font-size: 13px
+        font-weight: bold
+    &:hover .dropdown-content
+        display: block
+        z-index: 15
+    img
+        max-width: 100%
+        margin-top: 1rem
+
+.dropdown-content
+    display: none
+    position: absolute
+    top: 40px
+    background-color: #f1f1f1
+    min-width: 160px
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+    a
+        color: black
+        text-decoration: none
+        display: block
+    img
+        max-width: 150px
+    &:hover
+        background-color: white
+    .col-md-2
+        float: left
+    ul
+        display: inline-block
+        margin-top: 1rem
+
+.Help
+    img
+        max-width: 100%
+        margin-top: .5rem
+        border-radius: .5rem
+.OwlTop
+    margin-top: 3rem
+    text-align: center
+    img
+        width: 80px
+        border: 1px solid #727070
+        border-radius: 100%
+        margin: auto
+    a
+        text-decoration: none
+        color: black
+        font-size: 13px
+        font-weight: bold
+        &:hover
+            color: #ff7f00
+            transition: .3s
+            cursor: pointer
+        &:hover img
+            border: 2px solid #ff7f00
+            cursor: pointer
+    .owl-dots
+        display: none
+.Help2
+    img
+        max-width: 100%
+        margin-top: .5rem
+.UrunCard
+    margin-top: 1rem
+    border: none
+    .card
+        border-radius: .5rem
+    img
+        max-width: 100%
+        border-radius: .5rem .5rem 0 0
+    .cardTitle
+        background-color: black
+        padding: .5rem 1rem
+        a
+            color: white
+            text-decoration: none
+    &:hover .cardTitle
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)
+        background-color: #ff7f00
+        transition: .3s
+        cursor: pointer
+    &:hover img
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)
+        transition: .7s
+        cursor: pointer
+.UrunCardRow
+    display: flex
+    justify-content: space-between
+    margin-top: 1rem
+    margin-bottom: 1rem
+.CardUrun
+    margin-top: 1rem
+    border: 1.5px solid #bebaba
+    box-sizing: border-box
+    background-color: white
+    border-radius: .5rem
+    text-align: center
+    &:hover
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)
+        transition: .3s
+        cursor: pointer
+    .urunFoto
+        max-width: 80%
+        margin: auto
+        margin-top: .5rem
+    .cokSatan
+        max-width: 50px
+        position: relative
+        top: -220px
+        left: 10px
+    .fiyat
+        color: #ff7f00
+        font-weight: bold
+    .fav
+        border: 1px solid #bebaba
+        background-color: white
+        border-radius: 100%
+        padding: .2rem .4rem
+        position: relative
+        top: -270px
+        left: 70px
+        &:hover
+            color: #ff7f00
+            cursor: pointer
+.OwlUrunler
+    .urunlerOwl
+        background-color: #f1e7d2
+        padding: 1rem
+        border-radius: .5rem
+.AllBlogs
+    ul li
+        display: inline-block
+    .blogLink
+        border-right: 1px solid black
+        margin-right: .5rem
+        padding-right: .5rem
+        a
+            text-decoration: none
+            color: black
+            font-weight: 100
+            &:hover
+                cursor: pointer
+.Populer
+    ul li
+        a
+            text-decoration: none
+            color: black
+            font-size: 12px
+            &:hover
+                cursor: pointer
+                text-decoration: underline
+.FooterUl
+    width: 100%
+    li
+        width: 100%
+    a
+        text-decoration: none
+        color: white
+        font-size: 14px
+        &:hover
+            cursor: pointer
+            text-decoration: underline
+.Footer
+    background-color: black
+    color: white
+    .FooterImage1
+        img
+            max-width: 45px
+            margin-left: .2rem
+    .FooterImage2
+        img
+            max-width: 60%
+            margin-top: .5rem
+    .FooterImage3
+        color: black
+        li
+            background-color: white
+            padding: .3rem .5rem
+            border-radius: 50%
+            margin-right: .5rem
+    .FooterImage4
+        max-width: 40%
+
+$small: 300px
+$medium: 1200px
+
+@media screen and (min-width: $small) and (max-width: $medium)
+    .TopNav
+        display: none
+    .MidNav
+        font-size: 10px
+    .NavCatAll
+        display: none
+    .Footer
+        img
+            display: none
+        .FooterImage3
+            li
+                padding: .1rem
